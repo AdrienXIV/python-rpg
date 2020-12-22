@@ -1,7 +1,5 @@
-
-
 from utils import TYPE_ETHNIE
-from model_rpg import Personnage
+from model_rpg import Personnage, Item
 
 name = input('Entrez votre nom:')  # Recupération de data sur le terminal
 
@@ -40,5 +38,6 @@ while True:  # Boucle infini
         print("Valeur non numérique")
 
 
-test = Personnage(name, type_personnage, ethnie, sexe)
+test = Personnage(name, type_personnage, ethnie, sexe)  # new Personnage
+test.add_item_to_stock(Item(1, type_personnage))  # Add un item
 print(test)
