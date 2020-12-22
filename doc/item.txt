@@ -1,0 +1,22 @@
+6 object max
+
+- Attaque:
+    - Epée
+    - Arc
+    - Baton
+    - Dague
+
+- Defense:
+    - Casque
+    - Bouclier
+    - Fumigene
+    - Bague
+
+- Vitesse:
+    - Nike
+    - Moto
+    - Batmobile
+    - Cheval
+
+- Chance:
+    
