@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from random import randint
 from math import floor
+from random import randint
 from utils import TYPE_ETHNIE
 
 """ Class Personnage """
@@ -24,6 +24,15 @@ class Personnage():
         self.mana = 0
         self.vie = 10
         self.exp = 0
+        self.stock = []
+        self.stuff = {
+            "Attaque": -1,
+            "Defense": -1,
+            "Vitesse": -1,
+            "Mana": -1,
+            "Chance": -1,
+            "Vie": -1,
+        }
         self.init()
 
     def init(self):
