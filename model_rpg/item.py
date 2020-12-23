@@ -2,7 +2,7 @@
 
 from math import floor
 from random import randint
-from utils import LIST_ITEMS
+from utils.const import LIST_ITEMS
 
 """ Class Item """
 
